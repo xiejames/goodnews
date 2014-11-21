@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/31/trunk/together/news/src/together/news/common/threadpool/container
+END
+ThreadPoolContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/14/trunk/together/news/src/together/news/common/threadpool/container/ThreadPoolContainer.java
+END
+ThreadPoolScheduledContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/14/trunk/together/news/src/together/news/common/threadpool/container/ThreadPoolScheduledContainer.java
+END
+SimpleThreadPoolContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/31/trunk/together/news/src/together/news/common/threadpool/container/SimpleThreadPoolContainer.java
+END

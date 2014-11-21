@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/61/trunk/together/news/src/together/news/generator/content
+END
+GenContentProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/58/trunk/together/news/src/together/news/generator/content/GenContentProcessor.java
+END
+GenContentProcessor4IndexHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/61/trunk/together/news/src/together/news/generator/content/GenContentProcessor4IndexHtml.java
+END
+GenContentProcessor4SubHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/61/trunk/together/news/src/together/news/generator/content/GenContentProcessor4SubHtml.java
+END
+GeneratorDataLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/53/trunk/together/news/src/together/news/generator/content/GeneratorDataLoader.java
+END
+StaticGenContentProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/46/trunk/together/news/src/together/news/generator/content/StaticGenContentProcessor.java
+END
+GenContentProcessorRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/24/trunk/together/news/src/together/news/generator/content/GenContentProcessorRegistry.java
+END
+GenContentProcessor4TupianHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/58/trunk/together/news/src/together/news/generator/content/GenContentProcessor4TupianHtml.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/66/trunk/together/news
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/7/trunk/together/news/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6/trunk/together/news/.project
+END
+run.bat
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/63/trunk/together/news/run.bat
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/66/trunk/together/news/pom.xml
+END

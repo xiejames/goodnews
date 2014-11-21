@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/65/trunk/together/news/src/together/news/merge/content
+END
+MergeDataLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/65/trunk/together/news/src/together/news/merge/content/MergeDataLoader.java
+END
+MergeContentProcessorRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/32/trunk/together/news/src/together/news/merge/content/MergeContentProcessorRegistry.java
+END
+MergeContentProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/53/trunk/together/news/src/together/news/merge/content/MergeContentProcessor.java
+END
+MergeContentProcessor4IndexHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/58/trunk/together/news/src/together/news/merge/content/MergeContentProcessor4IndexHtml.java
+END
+MergeContentProcessor4SubHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/32/trunk/together/news/src/together/news/merge/content/MergeContentProcessor4SubHtml.java
+END

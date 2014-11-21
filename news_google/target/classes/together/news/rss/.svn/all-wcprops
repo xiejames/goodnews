@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/13/trunk/together/news/src/together/news/rss
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/13/trunk/together/news/src/together/news/rss/FileUtils.java
+END
+HTMLUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/13/trunk/together/news/src/together/news/rss/HTMLUtils.java
+END
+RSSUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/13/trunk/together/news/src/together/news/rss/RSSUtils.java
+END

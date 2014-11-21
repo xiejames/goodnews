@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=GB2312" /> 
+  <meta name="keywords" content="聚合,新闻首页,国内,国际,军事,财经,互联网,房产,汽车,体育,娱乐,游戏,教育,女人,科技,社会,视频,图片" /> 
+  <meta name="description" content="新闻首页,国内,国际,军事,财经,互联网,房产,汽车,体育,娱乐,游戏,教育,女人,科技,社会,视频,图片的专业时事报道聚合网站" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+  <title>聚合（新闻） - 首页</title> 
+  <!--[if IE 6]><script type="text/javascript">try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}</script><![endif]--> 
+  <script src="js/jquery-1.7.min.js"></script> 
+  <script>$(document).ready(function(){	$('#navifocuspic li').click(function(){	    var str = $(this).text();		$('#navifocuspic').children().removeClass('on');		$('#navifocuspic li:nth-child('+str+')').addClass('on');		$('#focuspicfilm').children().removeClass('on');		$('#focuspicfilm div:nth-child('+str+')').addClass('on');	});	setInterval(function(){	    var str = $('#navifocuspic li.on').text();	    str=(str)%$('#navifocuspic li').length+1;		$('#navifocuspic').children().removeClass('on');		$('#navifocuspic li:nth-child('+str+')').addClass('on');		$('#focuspicfilm').children().removeClass('on');		$('#focuspicfilm div:nth-child('+str+')').addClass('on');	},3000);	});
+  
+  
+  </script> 
+  <style type="text/css">/* Gbl CSS */body { margin:0px auto;text-align:center;width:960px;font-family:宋体,serif;background:#ffffff;font-size:12px;}div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea{padding:0; margin:0;}   table,td,tr,th{font-size:12px;}img{vertical-align:top;border:none;}ol,ul {list-style:none;}   h1,h2,h3,h4,h5,h6 {font-size:12px; font-weight:normal;}   /* link color font */a {color:#2b2b2b;text-decoration:none;}a:visited {color:#83006f;text-decoration:none;}a:hover {color:#BA2636;text-decoration:underline;}a:active {color:#BA2636;}/* head CSS */#header {height:32px; margin:0 auto; line-height:21px;}#header h1 {width:107px; height:24px; float:left; overflow:hidden; margin:2px 19px 0 2px;}#header .attlogo {float:left; height:15px; overflow:hidden; margin:10px 20px 0 0;}#header	.top_date {float:right; margin:10px 20px 0 0; display:inline;}#header	.top_notice {color:#0F65AE; width:500px; margin:9px 0 0; display:block;}#header	.top_search {float:right; margin:9px 0 0; display:inline;}/*navigation#navi{text-align:left;line-height:33px;background:url(img/linebg.gif) repeat-x #0F65AE; height:32px; width:100%; margin:0px;}#navi a{font-size:13px;color:#fff;padding:0 7px 0 7px;border-right:#880100 1px solid;}#navi .current {text-align:center;border:0px;display:inline; float:left; width:44px; height:32px; margin:0 0 0 4px; padding:0; background:url(img/nolinebg.gif) left bottom no-repeat; font-size:14px; font-weight:bold; color:#000;}#navi .naviR a{padding-left:90px;border:0px;}*/#navi{text-align:left;line-height:18px;background:url(img/linebg.gif) repeat-x #0F65AE; height:32px; width:100%; margin:0px;}#navi a{ margin-top:8px;height:15px;float:left; font-size:13px;color:#fff;padding:0px 10px;border-right:#880100 1px solid;}#navi .naviCurrent {line-height:32px; height:32px;width:44px;text-align:center;border:0px;display:inline;float:left;  margin:0 0 0 4px; padding:0; background:url(img/nolinebg.gif) left bottom no-repeat; font-size:14px; font-weight:bold; color:#000;}#navi .naviCurrentWider{font-size:13px;margin:0px; }#navi .naviR a{float:right;border:0px;}#navi .naviLast{border:0px;}/*content area*/.area {clear:both;width:960px; margin:5 auto; text-align:left; color:#2b2b2b; float:left;}.leftArea {float:left;width:310px;padding:5px 0px 0px 0px;}.middArea {float:left;width:440px;padding:5px 6px 0px 0px;}.rightArea {float:right;width:188px;padding:5px 0px 0px 0px;}.halfAreaL {float:left;width:475px;padding:5px 5px 6px 0px;}.halfAreaR {float:right;width:475px;padding:5px 0px 0px 0px;}.titleBar {width:99%;border:1px solid #dcdddd;height:25px; line-height:25px; overflow:hidden;background:url(img/titlebarbg2.png) left top repeat-x #fff;}.titleBar .more {float:right; padding-right:5px;}.titleBar h2{padding:0px 8px;float:left; color:#000; font-weight:bold; line-height:25px;}.titleBar h2 a,.titleBar h2 a:visited,.titleBar h3 a,.titleBar h3 a:visited {color:#000;}.titleBar h2 a:hover,.titleBar h3 a:hover {color:#BA2636;} .box{overflow:hidden; width:99%;margin:0px; border:1px solid #dcdddd;}.box .boxcontent{ padding:7px;}.box:hover{background:#fff;}.box h2{font-size:14px; font-weight:bold; line-height:24px;padding:3px;}.box .boximg{float:left;padding:8px;}.box .boxtext{line-height:21px; text-indent:2em; color:#727171;}.box .boxtext a{cursor:pointer;}.topnews{width:100%;color:#000;padding:5px;}.topnews h2{font-family:'黑体'; font-size:20px; font-weight:100; line-height:24px; margin:7px 0 4px;}.topnews span{text-indent:2em; color:#275ED3;}.content {border-bottom:1px dashed #727171;padding-bottom:10px;margin:8px;line-height:21px;}.newslist li {padding-left:9px; line-height:25px; font-size:14px; clear:both;}.newslistctnt{font-size:12px;color:#275ED3;}.hotwords_cont li{text-align:center;padding-left:9px; line-height:25px; font-size:14px; clear:both;}.focusPic {height:265px;border:1px solid #dcdddd;}.focusPic .tab .normal {display:none;}.focusPic .tab .on {display:block;}.focusPic .main {width:300px; height:230px; margin:4px auto 0; overflow:hidden;}.focusPic .main h2 {padding-left:30px;margin:-23px;background: none repeat scroll 0 0 #000000; opacity: 0.5;font-size:14px; font-weight:bold; line-height:24px;}.focusPic .main h2 a,.focusPic .main h2 a:hover,.focusPic .main h2 a:visited,.focusPic .main h2 a:active{color:#fff;}.focusPic .sidePic {float:right; height:24px;}.focusPic .sidePic li {border:1px solid #dcdddd;text-align:center;float:left;width:21px; margin-right:3px; height:24px; line-height:26px;cursor:pointer;}.focusPic .sidePic .on {background:url(img/linebg.gif) repeat-x #0F65AE;}.foot{border-top:1px solid #0F65AE;padding:10px;margin:5 auto; color:#4d4d4d; width:960px; line-height:21px; clear:both;}.foot .text{padding:5px 0 4px; border-bottom:1px solid #4d4d4d; margin:0 0 6px;}.foot a,.foot a:visited{color:#4d4d4d;}.foot a:hover {color:#ba2636;}
+  
+  
+  </style> 
+ </head> 
+ <body> 
+  <div id="header"> 
+   <div style="float:left;"> 
+    <h1><a href="" name="top"><span style="font-size:24px;background-color:#CC0000;color:white;font-family:楷体;">聚合<span style="font-family:黑体;color:#CC0000;background-color:white;margin:5px;">新闻</span></span> <span class="attlogo"></span></a></h1> 
+    <span class="attlogo"></span> 
+   </div> 
+   <div style="float:left;"> 
+    <marquee behavior="alternate" id="top_notice" class="top_notice" direction="right">
+      系统提示：正在内部测试中。。。。。。 
+    </marquee> 
+   </div> 
+   <div style="float:right;"> 
+    <div class="top_search"> 
+     <form target="_blank" id="formtop" action="#"> 
+      <input type="text" class="textBox" value="请输入关键词" onfocus="this.value=''" id="s_top" name="s_top" /> 
+      <input type="submit" class="btn" value="搜索" name="Submit" /> 
+     </form> 
+    </div> 
+    <div class="top_date" id="top_date">
+      11月5日 星期六 
+    </div> 
+    <script language="javascript">		var _now = new Date();		var year = _now.getFullYear();		var month = _now.getMonth() + 1;		document.getElementById("top_date").innerHTML = month+"月"+_now.getDate()+"日 星期"+"日一二三四五六".charAt(_now.getDay());		
+    
+    
+    </script> 
+   </div> 
+  </div> 
+  <div id="navi"> 
+   <span class="naviL"><a href="index.html" class=" naviCurrent">首页</a><a href="guonei.html">国内</a><a href="guoji.html">国际</a><a href="junshi.html">军事</a><a href="caijing.html">财经</a><a href="fangchan.html">房产</a><a href="qiche.html">汽车</a><a href="shehui.html">社会</a><a href="nvren.html">女人</a><a href="jiaoyu.html">教育</a><a href="yule.html">娱乐</a><a href="tiyu.html">体育</a><a href="keji.html">科技</a><a href="youxi.html">游戏</a><a href="hulianwang.html">互联网</a><a href="tupian.html" class=" naviLast">图片</a></span> 
+   <span class="naviR"> <a href="#" target="_blank">手机版</a> </span> 
+  </div> 
+  <div class="area" id="area1"> 
+   <div class="leftArea"> 
+    <div class="focusPic"> 
+     <div id="focuspicfilm" class="main tab"> 
+      <div class="normal on"> 
+       <a target="_blank" href="http://news.163.com/14/0918/17/A6EL81RD0001124J.html"><img width="300" height="225" alt="曝广电总局要求所有视频网站电视APP本周下架" title="曝姚晨婚内多次出轨与前夫离婚" src="http://img1.cache.netease.com/cnews/2014/9/18/20140918180800af8fc.jpg" onerror="this.src=img/blank.jpg" /></a> 
+       <h2><a target="_blank" href="http://news.163.com/14/0918/17/A6EL81RD0001124J.html">曝广电总局要求所有视频网站电视APP本周下架</a></h2> 
+      </div> 
+      <div class="normal"> 
+       <a target="_blank" href="http://news.163.com/14/0918/19/A6ERTT460001124J.html"><img width="300" height="225" alt="中金黄金总经理王荣湖被检查机关带走接受调查" title="曝姚晨婚内多次出轨与前夫离婚" src="http://img1.cache.netease.com/catchpic/D/DE/DE237A12129362EE247554F08C921368.jpg" onerror="this.src=img/blank.jpg" /></a> 
+       <h2><a target="_blank" href="http://news.163.com/14/0918/19/A6ERTT460001124J.html">中金黄金总经理王荣湖被检查机关带走接受调查</a></h2> 
+      </div> 
+      <div class="normal"> 
+       <a target="_blank" href="http://news.163.com/14/0918/17/A6ELREKC00014JB6.html"><img width="300" height="276" alt="中国对印投资8年增37倍 明年经贸或破千亿美元" title="曝姚晨婚内多次出轨与前夫离婚" src="http://img1.cache.netease.com/cnews/css13/img/end_news.png" onerror="this.src=img/blank.jpg" /></a> 
+       <h2><a target="_blank" href="http://news.163.com/14/0918/17/A6ELREKC00014JB6.html">中国对印投资8年增37倍 明年经贸或破千亿美元</a></h2> 
+      </div> 
+     </div> 
+     <ul id="navifocuspic" class="sidePic"> 
+      <li class="on">1</li> 
+      <li>2</li> 
+      <li>3</li> 
+     </ul> 
+    </div> 
+    <br /> 
+    <div class="titleBar"> 
+     <h2>今日话题</h2> 
+     <span class="more"><a href="#" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <h2><a href="http://ent.163.com/14/0917/18/A6C5Q77D00031H2L.html" target="_blank">曝姚晨婚内多次出轨与前夫离婚</a></h2> 
+      <div class="boximg"> 
+       <a href="http://ent.163.com/14/0917/18/A6C5Q77D00031H2L.html" target="_blank"><img src="http://img3.cache.netease.com/ent/2014/9/17/20140917181106afb6e.jpg" width="120" height="90" title="“光合作用”死于歧视" alt="曝姚晨婚内多次出轨与前夫离婚" onerror="this.src=img/blank.jpg" /></a> 
+      </div> 
+      <span class="boxtext">凌潇肃、唐一菲(资料视频)唐一菲晒美食网易娱乐9月17日报道(文/小易) 9月17日，网友“巨春雷”发表长篇文章《姚晨和凌潇肃那段被歪曲的往事》，爆料姚晨在婚内出轨4次，继而导致二人离婚。凌潇肃现任妻</span> 
+      <a href="http://ent.163.com/14/0917/18/A6C5Q77D00031H2L.html" target="_blank">[详情]</a> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="middArea"> 
+    <div class="content"> 
+     <div class="topnews"> 
+      <h2><a href="http://news.163.com/14/0918/19/A6ESLPEP00014JB6.html" target="_blank">香港特区终审法院裁定菲佣在港生子无居港权</a></h2> 
+      <span class="topnewsctnt">香港特区终审法院18日裁定，一名菲律宾佣工在香港出生的儿子没有居港权。案中的菲佣1991年开始在香港工作，1996年12月诞下儿子。儿子出生后一直以访客条件留在香港。2006年，菲佣为儿子申请成为香港</span> 
+      <a href="http://news.163.com/14/0918/19/A6ESLPEP00014JB6.html" target="_blank">[详情]</a> 
+     </div> 
+     <div class="topnews"> 
+      <h2><a href="http://news.163.com/14/0918/18/A6EQ7E370001124J.html" target="_blank">官方回应福建派出所长开枪自杀：欠巨款无力还</a></h2> 
+      <span class="topnewsctnt">新华网快讯：记者今天从有关部门获悉，福建三明市大田县奇韬派出所所长林芳东日前在宿舍开枪自杀，坊间传闻，其因赌球欠下巨额债务无力偿还而自杀身亡（见本网早前报道）。今日下午，福建省三明市大田县公安局官方微</span> 
+      <a href="http://news.163.com/14/0918/18/A6EQ7E370001124J.html" target="_blank">[详情]</a> 
+     </div> 
+     <div class="topnews"> 
+      <h2><a href="http://news.ifeng.com/opinion/zhuanlan/yutianren/detail_2014_07/01/37114475_0.shtml" target="_blank">日本解禁集体自卫权开创极其恶劣的先例</a></h2> 
+      <span class="topnewsctnt">集体自卫权问题经常被描述成日本企图对外用兵的问题，其实还不是那样，那是修改宪法的内容，而集体自卫权问题在更大程度上是要不要接受已经开始衰落了的美国的委托的问题，当然对于右翼的保守势力……&lt;a h</span> 
+      <a href="http://news.ifeng.com/opinion/zhuanlan/yutianren/detail_2014_07/01/37114475_0.shtml" target="_blank">[详情]</a> 
+     </div> 
+    </div> 
+    <div class="content" style="border:0px;"> 
+     <ul class="newslist"> 
+      <li><a href="http://news.163.com/14/0510/13/9RSUUV4J00014JB6.html" target="_blank">马英九母亲节前夕撰文悼念母亲：来世再做母子</a> <span class="newslistctnt">据台湾“中央社”报</span></li> 
+      <li><a href="http://news.163.com/14/0507/07/9RKI5Q1200011229.html" target="_blank">上访农妇被关精神病院6年 病历上写反复告政府</a> <span class="newslistctnt">9岁的邓爱仔，已</span></li> 
+      <li><a href="http://news.sohu.com/20081117/n260677352.shtml" target="_blank">华南虎案二审今天开庭 周正龙被带入法庭</a> <span class="newslistctnt">周正龙在法庭上 周正龙</span></li> 
+      <li><a href="http://news.163.com/14/0505/13/9RG0IFGN0001124J.html" target="_blank">中纪委晒&amp;quot;五一&amp;quot;违纪账单:浙江52人进景区打白条</a> <span class="newslistctnt"></span></li> 
+      <li><a href="http://news.sohu.com/20081114/n260627272.shtml" target="_blank">德医生创奇迹 骨髓移植同时治愈白血病和艾滋病</a> <span class="newslistctnt">1月12日，柏林</span></li> 
+      <li><a href="http://news.sohu.com/20081113/n260619102.shtml" target="_blank">刚果叛军用政府军士兵尸体当路障(组图)</a> <span class="newslistctnt">2日战斗中阵亡的刚果(</span></li> 
+      <li><a href="http://news.sohu.com/20081113/n260608605.shtml" target="_blank">山寨版《纽约时报》印120万份：宣布伊战结束</a> <span class="newslistctnt">1月12日，一名</span></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="rightArea"> 
+    <div class="titleBar"> 
+     <h2>热门搜词</h2> 
+     <span class="more"><a href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%BB%F4%CB%BC%D1%E0%C9%FA%D7%D3" style="font-size: 12px; color: #bb2a31;" title="霍思燕生子" target="_blank">霍思燕生子</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <div class="hotwords_cont"> 
+       <ul> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=10%C4%EA%CC%B8%D0%C43268%B4%CE" title="10年谈心3268次">10年谈心3268次</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%E5%DE%F3%A6%B8%E7" title="遛螃哥">遛螃哥</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%B6%C5%E3%EB%D4%F3%CA%DD%C9%ED" title="杜汶泽瘦身">杜汶泽瘦身</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%B0%B2%B1%B6%C3%FB%D7%D6%B1%BB%D0%B4%B4%ED" title="安倍名字被写错">安倍名字被写错</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%BD%F0%C9%ABiPhone%CA%DC%BB%B6%D3%AD" title="金色iPhone受欢迎">金色iPhone受欢</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%CD%F5%B7%C6%C0%EB%BB%E9%BA%F3%C8%AB%C3%E6%B8%B4%B3%F6" title="王菲离婚后全面复出">王菲离婚后全面复出</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%D6%EC%C0%F2%BB%B9%D3%D03%C4%EA%C9%FA%C3%FC" title="朱莉还有3年生命">朱莉还有3年生命</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%CE%E5%BD%E3%C3%C3%BC%AF%CC%E5%D7%D4%C9%B1" title="五姐妹集体自杀">五姐妹集体自杀</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%C9%CF%BA%A3%B5%D8%CC%FA%BD%F8%CA%B3%B7%A3500" title="上海地铁进食罚500">上海地铁进食罚500</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=1&amp;rn=20&amp;sp=hotquery&amp;word=%C3%C0%C5%AE%C5%AD%B3%E9%E2%AB%CB%F6%C4%D0" title="美女怒抽猥琐男">美女怒抽猥琐男</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <br /> 
+    <div class="titleBar"> 
+     <h2>精选热搜词</h2> 
+     <span class="more"><a href="http://news.baidu.com/ns?cl=2&amp;ct=9&amp;rn=20&amp;sp=hotquery&amp;word=%CB%A2%CF%E0%B9%D8" style="font-size: 12px; color: #bb2a31;" title="刷相关" target="_blank">刷相关</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <div class="hotwords_cont"> 
+       <ul> 
+        <li><a target="_blank" href="/n?cmd=2&amp;class=enternews&amp;page=http%3A%2F%2Fe.gmw.cn%2F2012-01%2F10%2Fcontent_3360937.htm&amp;cls=enternews" title="郭德纲放任弟子打人是砸自己招牌">郭德纲放任弟子打人是</a></li> 
+        <li><a target="_blank" href="http://ent.ifeng.com/idolnews/special/guodegangdz/pinglun/detail_2012_01/10/11881985_0.shtml" title="评：公众场合非恶意偷拍无伤大雅 明星需做出牺牲">评：公众场合非恶意偷</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=9&amp;rn=20&amp;sp=hotquery&amp;word=%B0%D7%C1%EC%BB%AF%C9%ED%BE%BC%BE%BC%CF%C0" title="白领化身炯炯侠">白领化身炯炯侠</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=9&amp;rn=20&amp;sp=hotquery&amp;word=%CB%A2%CF%E0%B9%D8" title="刷相关">刷相关</a></li> 
+        <li><a target="_blank" href="http://www.cnsphoto.com/NewsPhoto/ShowNewsDetail.asp?Id=772257&amp;Flag=WN" title="郭德纲称不知围殴事件 撇清“打人门”">郭德纲称不知围殴事件</a></li> 
+        <li><a target="_blank" href="http://news.baidu.com/ns?cl=2&amp;ct=9&amp;rn=20&amp;sp=hotquery&amp;word=%D5%C5%D6%BE%D1%EF" title="张志扬">张志扬</a></li> 
+        <li><a target="_blank" href="/n?cmd=2&amp;class=enternews&amp;page=http%3A%2F%2Fent.sina.com.cn%2Fs%2Fm%2F2012-01-10%2F19083530251.shtml&amp;cls=enternews" title="杨幂公布恋情：不存在炒作也不是做秀">杨幂公布恋情：不存在</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="area" id="area20"> 
+   <div class="halfAreaL"> 
+    <div class="titleBar"> 
+     <h2>国内</h2> 
+     <span class="more"><a href="guonei.html?0.8132431125162374" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://news.163.com/14/0918/17/A6ELREKC00014JB6.html" target="_blank">中国对印投资8年增37倍 明年经贸或破千亿美元</a> <span class="newslistctnt">9月17日，中</span></li> 
+       <li><a href="http://video.sina.com.cn/p/news/c/v/2014-09-17/090564117301.html" target="_blank">视频：洛阳政法委副书记遭偷拍曝其开公车豪赌</a> <span class="newslistctnt">近日，有网友跟拍洛</span></li> 
+       <li><a href="http://news.ifeng.com/taiwan/1/detail_2013_06/26/26836054_0.shtml" target="_blank">马英九：两岸关系目前处于稳定状态</a> <span class="newslistctnt">原标题：马英九：两岸关系目前</span></li> 
+       <li><a href="http://news.ifeng.com/taiwan/1/detail_2013_06/26/26835307_0.shtml" target="_blank">谢坤宏联署未过 马英九成国民党主席唯一候选人</a> <span class="newslistctnt">原标题：马英九成</span></li> 
+       <li><a href="http://news.ifeng.com/mainland/detail_2014_02/25/34171696_0.shtml" target="_blank">中央出台意见指导信访工作：从源头预防减少问题发生</a> <span class="newslistctnt">新华视点：一</span></li> 
+       <li><a href="http://news.ifeng.com/taiwan/3/detail_2013_01/18/21318317_0.shtml" target="_blank">台湾陆委会：金门自大陆引水方案还未确定</a> <span class="newslistctnt">据中新社报道，台湾陆委</span></li> 
+       <li><a href="http://news.sohu.com/20140918/n404430393.shtml" target="_blank">10个跑官8个贪 盘点“跑路”官员的不归路</a> <span class="newslistctnt">9月15日，新京报</span></li> 
+       <li><a href="http://news.163.com/14/0918/18/A6ENN78T00014JB6.html" target="_blank">广东省政协撤销6名委员资格 包括2名被调查常委</a> <span class="newslistctnt">记者18日从广</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="halfAreaR"> 
+    <div class="titleBar"> 
+     <h2>国际</h2> 
+     <span class="more"><a href="guoji.html?0.14040437840965114" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://news.ifeng.com/world/detail_2014_02/19/33974788_0.shtml" target="_blank">波兰一中国籍女子因遗弃新生儿被控谋杀罪</a> <span class="newslistctnt">发现被遗弃婴儿的流浪汉</span></li> 
+       <li><a href="http://video.sina.com.cn/p/news/w/v/2014-09-17/084964117297.html" target="_blank">视频：专家称菲火山或数周内喷发 上万人撤离</a> <span class="newslistctnt">9月16日，菲律宾</span></li> 
+       <li><a href="http://news.163.com/14/0918/21/A6F2R92900014JB5.html" target="_blank">日本前外务省官员批安倍政权 吁开展和平外交</a> <span class="newslistctnt">由日本学者组成的“</span></li> 
+       <li><a href="http://news.163.com/14/0918/17/A6EL6VDE00014JB5.html" target="_blank">“杀人蚊”入侵英国 或传播致命疾病</a> <span class="newslistctnt">“杀人蚊”入侵英国，或传播</span></li> 
+       <li><a href="http://news.sina.com.cn/w/2014-09-17/075230869936.shtml" target="_blank">乌克兰议会批准特赦民间武装 允许东部地区自治</a> <span class="newslistctnt">综合消息，乌克兰</span></li> 
+       <li><a href="http://news.163.com/14/0918/15/A6EFC1JC00014JB6.html" target="_blank">马拉西亚一独居华裔家中丧命 遗体已腐烂</a> <span class="newslistctnt">死者遗体送抵古晋砂中央</span></li> 
+       <li><a href="http://news.ifeng.com/world/special/wuyuanjiashishi/content-4/detail_2013_10/05/30078195_0.shtml" target="_blank">中越决策奠边府：武元甲称“千载难逢的战机”</a> <span class="newslistctnt">奠边府战役共歼灭法</span></li> 
+       <li><a href="http://news.sina.com.cn/w/2014-09-17/074830870012.shtml" target="_blank">美军方考虑派遣地面部队打击“伊斯兰国”</a> <span class="newslistctnt">记者穆东)美军参谋长联</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="area" id="area21"> 
+   <div class="halfAreaL"> 
+    <div class="titleBar"> 
+     <h2>军事</h2> 
+     <span class="more"><a href="junshi.html?0.25594683130939566" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://mil.news.sina.com.cn/2014-09-17/0909801618.html" target="_blank">巴方严密保护中国枭龙技术人员 非常热情友好</a> <span class="newslistctnt">今年7月，中航工业</span></li> 
+       <li><a href="http://mil.news.sina.com.cn/2014-09-17/0900801617.html" target="_blank">中航首次高原测试两型发动机 青海省长到场慰问</a> <span class="newslistctnt">近日，中航工业试</span></li> 
+       <li><a href="http://mil.sohu.com/20140918/n404437749.shtml" target="_blank">美媒：空中打击万变不离其宗 含导弹吸铁石作用</a> <span class="newslistctnt">导读：美国“战略</span></li> 
+       <li><a href="http://war.163.com/14/0918/08/A6DNLNB400011MTO.html" target="_blank">网传俄军2个坦克连遭到乌克兰军伏击</a> <span class="newslistctnt">现场俄军装甲车辆。网传，9</span></li> 
+       <li><a href="http://mil.news.sina.com.cn/2014-09-17/0858801616.html" target="_blank">“99坦克炮管晃动说明炮控不过关”缺乏军事常识</a> <span class="newslistctnt">在“和平使命-</span></li> 
+       <li><a href="http://mil.sohu.com/20140918/n404437587.shtml" target="_blank">美国武装无人机配备凶猛杀器 轻松袭击恐怖组织</a> <span class="newslistctnt">导读：本研究报告</span></li> 
+       <li><a href="http://mil.news.sina.com.cn/2014-09-17/0848801615.html" target="_blank">中印友好合作应令日本人钻地缝 日国家战略愚蠢</a> <span class="newslistctnt">中国国家主席习近</span></li> 
+       <li><a href="http://war.163.com/14/0918/07/A6DK3L8G00014OVF.html" target="_blank">美称中国武统台有四选择 面临国际巨大压力</a> <span class="newslistctnt">资料图：台湾大批战机</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="halfAreaR"> 
+    <div class="titleBar"> 
+     <h2>财经</h2> 
+     <span class="more"><a href="caijing.html?0.949516402827106" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://finance.sina.com.cn/stock/hkstock/marketalerts/20140917/090920314872.shtml" target="_blank">邓建初：今早港股可高开</a> <span class="newslistctnt">邓建初 受到美国提早加息预期下降，以及</span></li> 
+       <li><a href="http://finance.sina.com.cn/china/hgjj/20140917/090620314856.shtml" target="_blank">英媒：中国坚决清理金融系统 无惧经济放缓</a> <span class="newslistctnt">英国《每日电讯报》网</span></li> 
+       <li><a href="http://money.163.com/14/0918/20/A6F0IHU700253B0H.html" target="_blank">周小川楼继伟将出席G20财长和央行行长会议</a> <span class="newslistctnt">9月18日讯，外交</span></li> 
+       <li><a href="http://business.sohu.com/20140918/n404415296.shtml" target="_blank">中国兵工集团招中戏美女入职工会 女方：接新戏不入职</a> <span class="newslistctnt">招中戏美女</span></li> 
+       <li><a href="http://business.sohu.com/20140918/n404414898.shtml" target="_blank">国务院专家：北京房价必然下跌 除非居民收入大涨</a> <span class="newslistctnt">9月17日下午</span></li> 
+       <li><a href="http://business.sohu.com/20140918/n404412910.shtml" target="_blank">山东蓝翔副校长被指率师生赴河南与校长岳父发生斗殴</a> <span class="newslistctnt">双方发生冲突</span></li> 
+       <li><a href="http://money.163.com/14/0918/19/A6ETIRL700253B0H.html" target="_blank">央行马骏：货币政策总的取向以稳健和审慎为宜</a> <span class="newslistctnt">央行研究局首席经济</span></li> 
+       <li><a href="http://business.sohu.com/20140918/n404412278.shtml" target="_blank">知音原董事长主动谈被免：有些人为此吃不下饭 失眠</a> <span class="newslistctnt">新京报讯&amp;a</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="area" id="area22"> 
+   <div class="halfAreaL"> 
+    <div class="titleBar"> 
+     <h2>房产</h2> 
+     <span class="more"><a href="fangchan.html?0.15848145106088263" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://jiaju.sina.com.cn/gz/news/2013-01-09/154725189410.shtml?source=rss" target="_blank">2012中国红木家具行业高峰论坛</a> <span class="newslistctnt">背景：2011年底，传出《红</span></li> 
+       <li><a href="http://jiaju.sina.com.cn/news/2013-01-09/153914189409.shtml?source=rss" target="_blank">方圆地板黄永平：木结构建筑带动地板配套销售</a> <span class="newslistctnt">随着社会发展阶段的</span></li> 
+       <li><a href="http://jiaju.sina.com.cn/news/2013-01-09/153720189408.shtml?source=rss" target="_blank">安信地板彭勇华：诚信是企业和商人最基本素养</a> <span class="newslistctnt">2月13日，中国木</span></li> 
+       <li><a href="http://house.sina.com.cn/scan/2012-12-31/1008427022.shtml?source=rss" target="_blank">濠</a> <span class="newslistctnt">婵(缂缂)婵 12211221婵......</span></li> 
+       <li><a href="http://jiaju.sina.com.cn/sh/news/2013-01-09/152838189407.shtml?source=rss" target="_blank">中电协赴欧考察西蒙控股集团</a> <span class="newslistctnt">2年11月21日，西蒙控股集团(S</span></li> 
+       <li><a href="http://bj.house.163.com/14/0908/08/A5K0492F00073SD3.html" target="_blank">北漂：看看外面世界 至少将来不后悔</a> <span class="newslistctnt">漫画：CFP供图奋斗在北京</span></li> 
+       <li><a href="http://sh.house.163.com/11/0110/09/6Q1CPN2P00073SDJ.html" target="_blank">沪住房自有率降至7成以下 外籍人员多租房</a> <span class="newslistctnt">在房价居高不下的今天</span></li> 
+       <li><a href="http://jiaju.sina.com.cn/news/2013-01-09/152228189406.shtml?source=rss" target="_blank">商务空间设计的后现代主义</a> <span class="newslistctnt">后现代主义一词最早出现在西班牙作家德</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="halfAreaR"> 
+    <div class="titleBar"> 
+     <h2>汽车</h2> 
+     <span class="more"><a href="qiche.html?0.04676089809661821" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://auto.163.com/13/0721/20/94B8905P00084TUO.html" target="_blank">国产高尔夫7现身 第250批新车目录解读</a> <span class="newslistctnt">第250批新车目录解</span></li> 
+       <li><a href="http://auto.sohu.com/20140918/n404436422.shtml" target="_blank">汽车维修信息强制公开 车企将成最大阻力</a> <span class="newslistctnt">9月18日，交通运输部</span></li> 
+       <li><a href="http://auto.sohu.com/20140918/n404435261.shtml" target="_blank">东风御风助力武汉网球公开赛 成专用车辆</a> <span class="newslistctnt">4年9月19日-27日</span></li> 
+       <li><a href="http://auto.163.com/13/0708/17/939DRM6600084TUR.html" target="_blank">操控/省油两不误 海外试驾福克斯1.0T版</a> <span class="newslistctnt">海外试驾福克斯1.</span></li> 
+       <li><a href="http://auto.163.com/13/0407/17/8RSG5D9000084TUP.html" target="_blank">车主+乘客+编辑 20万元5款热门B级车点评</a> <span class="newslistctnt">0万元5款热门B</span></li> 
+       <li><a href="http://auto.sina.com.cn/car/2014-09-17/09091333649.shtml" target="_blank">丰田锐志最高综合优惠3.3万元 现车充足</a> <span class="newslistctnt">市场价&amp;nb</span></li> 
+       <li><a href="http://auto.sohu.com/20140918/n404435126.shtml" target="_blank">东风轻卡:凯普特流动售卖车再&amp;quot;驶进&amp;quot;西藏</a> <span class="newslistctnt"></span></li> 
+       <li><a href="http://auto.sina.com.cn/news/2014-09-17/09081333648.shtml" target="_blank">百度与宝马合作钻研自动驾驶技术</a> <span class="newslistctnt">昨天记者从百度获悉，百度已与宝</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="area" id="area23"> 
+   <div class="halfAreaL"> 
+    <div class="titleBar"> 
+     <h2>社会</h2> 
+     <span class="more"><a href="shehui.html?0.3104594484909037" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://news.ifeng.com/society/1/detail_2013_08/01/28169237_0.shtml" target="_blank">江西九江“花和尚”报复情敌砍人放火案一审</a> <span class="newslistctnt">原标题：江西九江“花</span></li> 
+       <li><a href="http://news.163.com/14/0918/13/A6E85FCB00011229.html" target="_blank">乘客让孩子地铁站内小便 站务员劝阻被扇耳光</a> <span class="newslistctnt">男子抱小孩在站台上</span></li> 
+       <li><a href="http://news.sina.com.cn/s/p/2014-09-17/080930869980.shtml" target="_blank">新生儿被弃河边奇迹挺过台风:全身发紫发抖</a> <span class="newslistctnt">9月16日清晨6点 </span></li> 
+       <li><a href="http://news.sohu.com/20140918/n404424221.shtml" target="_blank">记者采访江西石狮乡政府遭威胁：滚出乡政府</a> <span class="newslistctnt">村民在便民服务中心办</span></li> 
+       <li><a href="http://news.163.com/14/0918/15/A6EFMPDO00011229.html" target="_blank">兵工集团招中戏美女演员 网友怀疑是炒作</a> <span class="newslistctnt">9月16日，知名网友“</span></li> 
+       <li><a href="http://news.sohu.com/20140918/n404412056.shtml" target="_blank">宁夏12名女童遭教师猥亵 家长维权被拘留</a> <span class="newslistctnt">日前，一则关于宁夏灵</span></li> 
+       <li><a href="http://news.sina.com.cn/s/p/2014-09-17/080730869971.shtml" target="_blank">电梯门打开后轿厢未停 男生踩空被齐胸卡死</a> <span class="newslistctnt">电梯来了，门打开但轿</span></li> 
+       <li><a href="http://news.ifeng.com/society/1/detail_2013_07/11/27405333_0.shtml" target="_blank">女子为与情夫结婚绑架并撕票情夫幼子</a> <span class="newslistctnt">原标题：女子为与情夫结婚绑</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="halfAreaR"> 
+    <div class="titleBar"> 
+     <h2>女人</h2> 
+     <span class="more"><a href="nvren.html?0.17793668311833166" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://lady.163.com/12/1023/11/8EGEQ2L900261KQ0.html" target="_blank">??????????????????TT ?????????</a> <span class="newslistctnt"></span></li> 
+       <li><a href="http://lady.163.com/12/1213/10/8IJME4DM00261KQ2.html" target="_blank">复合后 发现男友曾找前女友聊天</a> <span class="newslistctnt">网友提问：之前我们因为吵架一气</span></li> 
+       <li><a href="http://lady.163.com/12/1213/10/8IJM86KB00261KQ2.html" target="_blank">在错的时间遇到对的人</a> <span class="newslistctnt">你好！我是一个对待感情很真，可以说是到了</span></li> 
+       <li><a href="http://women.sohu.com/20061201/n246734466.shtml" target="_blank">突破“男”关，助你成就“爸”业</a> <span class="newslistctnt">玲儿从小就有经痛的现象，在二十</span></li> 
+       <li><a href="http://lady.163.com/12/1212/13/8IHEU2BU00261KQ2.html" target="_blank">结婚了咱们不当啃老族</a> <span class="newslistctnt">网友提问：茱莉：你好！今天一早，在丈夫兴</span></li> 
+       <li><a href="http://women.sohu.com/20060907/n245191977.shtml" target="_blank">两性：接吻的种种技术性难题</a> <span class="newslistctnt">谈到接吻的技巧，有很多让人头疼的地</span></li> 
+       <li><a href="http://women.sohu.com/20060907/n245193704.shtml" target="_blank">两性：以男人的名义解读“性爱”</a> <span class="newslistctnt">做爱对于男人女人来说，都需要的</span></li> 
+       <li><a href="http://women.sohu.com/20060907/n245193730.shtml" target="_blank">两性：大话性事 我的不正常丈夫</a> <span class="newslistctnt">谈到性爱，我们不能回避这样的事</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="area" id="area24"> 
+   <div class="halfAreaL"> 
+    <div class="titleBar"> 
+     <h2>教育</h2> 
+     <span class="more"><a href="jiaoyu.html?0.43479556947972786" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://edu.sina.com.cn/bschool/2014-09-17/0906433918.shtml" target="_blank">评论：天价EMBA教育何时回归理性？</a> <span class="newslistctnt">自“禁读令”发布以来，曾</span></li> 
+       <li><a href="http://campus.sohu.com/20060228/n242043815.shtml" target="_blank">女友太漂亮被人强暴了怎么办</a> <span class="newslistctnt">阿呜： 我需要你的帮助，请原谅我叙</span></li> 
+       <li><a href="http://edu.sina.com.cn/zxx/2014-09-17/0855433917.shtml" target="_blank">沈阳14所高中试点走班教学 学生课表私人定制</a> <span class="newslistctnt">据中国教育报，今</span></li> 
+       <li><a href="http://campus.sohu.com/20060228/n242044427.shtml" target="_blank">超可怕！5种食物一吃就胖</a> <span class="newslistctnt">提到减重，就不得不强调饮食控制。不过</span></li> 
+       <li><a href="http://goabroad.sohu.com/20060227/n242043567.shtml" target="_blank">惊艳 谁是好莱坞超级性感女神</a> <span class="newslistctnt">在那些被华丽的晚装，闪耀的珠宝包</span></li> 
+       <li><a href="http://edu.163.com/14/0901/08/A51UGDSB00294III.html" target="_blank">中国富豪用光美移民名额内幕</a> <span class="newslistctnt">相关新闻&amp;#62;&amp;</span></li> 
+       <li><a href="http://goabroad.sohu.com/20060228/n242041504.shtml" target="_blank">另眼看世界：外人眼中加拿大人的形象</a> <span class="newslistctnt">都灵冬奥会正进行得如火如荼</span></li> 
+       <li><a href="http://learning.sohu.com/20060228/n242037900.shtml" target="_blank">河南十条禁令规范中小学收费</a> <span class="newslistctnt">今后看中小学是否乱收费，对照《规范</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="halfAreaR"> 
+    <div class="titleBar"> 
+     <h2>娱乐</h2> 
+     <span class="more"><a href="yule.html?0.29248834477176167" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://ent.163.com/14/0917/18/A6C5Q77D00031H2L.html" target="_blank">曝姚晨婚内多次出轨与前夫离婚</a> <span class="newslistctnt">凌潇肃、唐一菲(资料视频)唐一菲</span></li> 
+       <li><a href="http://ent.sina.com.cn/s/j/k/2014-09-17/09024209948.shtml" target="_blank">孔孝真李振郁分手 相恋三个月闪电告吹</a> <span class="newslistctnt">韩国演员李振郁和孔孝真[</span></li> 
+       <li><a href="http://ent.sina.com.cn/s/h/2014-09-17/09014209947.shtml" target="_blank">官恩娜继黄浩然后患怪病 半边脸肌肉瘫痪</a> <span class="newslistctnt">北京时间9月17日消息</span></li> 
+       <li><a href="http://ent.sina.com.cn/y/r/2014-09-17/09014209946.shtml" target="_blank">赤西仁将开退社后首场全国巡演慰劳粉丝</a> <span class="newslistctnt">据日媒16日最新消息，赤</span></li> 
+       <li><a href="http://ent.sina.com.cn/s/h/2014-09-17/08574209945.shtml" target="_blank">周星驰拒回应遭炮轰 回顾那些年他说的话</a> <span class="newslistctnt">向华强太太陈岚炮轰周星</span></li> 
+       <li><a href="http://ent.163.com/14/0917/16/A6C0OOL500031H2L.html" target="_blank">房祖名或判3年缓刑可能性低</a> <span class="newslistctnt">9月17日，房祖名自上月14日于北</span></li> 
+       <li><a href="http://yule.sohu.com/20140918/n404424354.shtml" target="_blank">曝32岁李娜将宣布退役 因双膝伤势加重</a> <span class="newslistctnt">搜狐娱乐讯 据圈内人士</span></li> 
+       <li><a href="http://ent.163.com/14/0917/05/A6AP6O7G00031H2L.html" target="_blank">康辉揭主播工资：一年拿不到28万</a> <span class="newslistctnt">康辉自曝工资四川新闻网-成都</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="area" id="area25"> 
+   <div class="halfAreaL"> 
+    <div class="titleBar"> 
+     <h2>体育</h2> 
+     <span class="more"><a href="tiyu.html?0.7231378328257858" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://sports.163.com/14/0918/22/A6F8EV9C00051CD5.html" target="_blank">米兰版梅球王盼夺意甲冠军 赞因扎吉为足球而生</a> <span class="newslistctnt">网易体育9月18</span></li> 
+       <li><a href="http://sports.sina.com.cn/l/2014-09-17/09077335680.shtml" target="_blank">粗心男2元零钱买彩中500万 十天后方知中奖</a> <span class="newslistctnt">中国体育彩票[微</span></li> 
+       <li><a href="http://sports.sina.com.cn/g/ucl/2014-09-17/08547335657.shtml" target="_blank">1742天！利物浦真魂永不倒 齐肩曼联切尔西三位大神</a> <span class="newslistctnt">历史总是</span></li> 
+       <li><a href="http://sports.163.com/14/0918/22/A6F6ECQJ00051CCL.html" target="_blank">范加尔5场比赛共用33人英超第一 英媒惊呼补锅匠</a> <span class="newslistctnt">本赛季迄今的</span></li> 
+       <li><a href="http://sports.sohu.com/20140911/n404227040.shtml" target="_blank">苹果新机横空出世 盘点足坛巨星都用什么手机</a> <span class="newslistctnt">罗发型赞，黑莓手中</span></li> 
+       <li><a href="http://sports.sina.com.cn/g/ucl/2014-09-17/08547335656.shtml" target="_blank">璞玉废柴合体！阿森纳奇葩吊在红黑之间 范加尔笑醉了</a> <span class="newslistctnt">作客威斯特</span></li> 
+       <li><a href="http://sports.163.com/12/1128/23/8HEDKFM500052UUC.html" target="_blank">青岛主帅遭球迷赛末喊下课:输球都是我的责任</a> <span class="newslistctnt">北京时间11月28</span></li> 
+       <li><a href="http://sports.163.com/14/0918/21/A6F436LK00051CA1.html" target="_blank">队友称科比厌烦被问健康问题:新季他效率会很高</a> <span class="newslistctnt">网易体育9月18</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="halfAreaR"> 
+    <div class="titleBar"> 
+     <h2>科技</h2> 
+     <span class="more"><a href="keji.html?0.7462653098647352" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://it.sohu.com/20140918/n404431425.shtml" target="_blank">数字化教学时代来临 学生个人隐私成最大隐患</a> <span class="newslistctnt">阿咩 暑假转眼过，</span></li> 
+       <li><a href="http://tech.163.com/13/0728/09/94S4595Q000915BD.html" target="_blank">关停超过一周 苹果被黑事故过程回顾</a> <span class="newslistctnt">自从上周四苹果开发者网站出</span></li> 
+       <li><a href="http://tech.163.com/13/0723/01/94EAIUC8000915BF.html" target="_blank">Struts2漏洞解读:或波及国内多大网站</a> <span class="newslistctnt">文/顾晓波随着苹果</span></li> 
+       <li><a href="http://tech.sina.com.cn/digi/dc/2014-09-17/09079616678.shtml" target="_blank">徕卡发布多款高级便携相机 9000元起售</a> <span class="newslistctnt">徕卡3款便携数码相机</span></li> 
+       <li><a href="http://tech.163.com/13/0722/09/94CIU8AB000947EG.html" target="_blank">苹果开发者网站被黑 或泄露部分信息</a> <span class="newslistctnt">7月22日消息，从上周四至</span></li> 
+       <li><a href="http://tech.163.com/13/0720/09/947EKK7I000915BF.html" target="_blank">搜狐回应搜狗卖身案：未确定任何交易</a> <span class="newslistctnt">网易科技讯&amp;#16</span></li> 
+       <li><a href="http://it.sohu.com/20140918/n404427964.shtml" target="_blank">亚马逊推6款新品：旗舰机型起售价379美元</a> <span class="newslistctnt">9月18日消息，据</span></li> 
+       <li><a href="http://digi.it.sohu.com/20140918/n404424010.shtml" target="_blank">升级iOS8前你应该注意的事</a> <span class="newslistctnt">8如期而至，不少朋友熬夜等更新。</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="area" id="area26"> 
+   <div class="halfAreaL"> 
+    <div class="titleBar"> 
+     <h2>游戏</h2> 
+     <span class="more"><a href="youxi.html?0.5149593177746331" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://game.163.com/14/0918/11/A6E0CODK00314K8H.html" target="_blank">每日一雷:美战内衣第二弹袭来</a> <span class="newslistctnt">欢迎大家回来。一如既往，这里云集</span></li> 
+       <li><a href="http://game.163.com/14/0917/11/A6BFHQL400314K8H.html" target="_blank">每日一雷：停机沟和平衡狗</a> <span class="newslistctnt">欢迎大家回来。一如既往，这里云集荟萃</span></li> 
+       <li><a href="http://game.163.com/14/0916/11/A68SIL8300314K8H.html" target="_blank">每日一雷:?炸天的胸部笔记本</a> <span class="newslistctnt">欢迎大家回来。一如既往，这里云集</span></li> 
+       <li><a href="http://game.163.com/14/0915/11/A66BQG8B00314K8H.html" target="_blank">每日一雷:大明湖畔的&amp;quot;四老外&amp;quot;</a> <span class="newslistctnt">欢迎大家回</span></li> 
+       <li><a href="http://game.163.com/14/0912/11/A5UKIPP400314K8H.html" target="_blank">每日一雷:筱崎爱的肉食女子部</a> <span class="newslistctnt">欢迎大家回来。一如既往，这里云集</span></li> 
+       <li><a href="http://game.163.com/14/0911/10/A5RUCF0200314K8H.html" target="_blank">每日一雷:水下泳装过膝袜再临</a> <span class="newslistctnt">欢迎大家回来。一如既往，这里云集</span></li> 
+       <li><a href="http://game.163.com/14/0905/11/A5CIAEPL00314K8H.html" target="_blank">每日一雷:妹子最怕被看见什么</a> <span class="newslistctnt">欢迎大家回来。一如既往，这里云集</span></li> 
+       <li><a href="http://game.163.com/14/0904/11/A59V3NMH00314K8H.html" target="_blank">每日一雷:绅士下饭神器蓝白碗</a> <span class="newslistctnt">欢迎大家回来。一如既往，这里云集</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="halfAreaR"> 
+    <div class="titleBar"> 
+     <h2>互联网</h2> 
+     <span class="more"><a href="hulianwang.html?0.3292181885569041" target="_blank">更多&gt;</a></span> 
+    </div> 
+    <div class="box"> 
+     <div class="boxcontent"> 
+      <ul class="newslist"> 
+       <li><a href="http://tech.sina.com.cn/i/2014-09-17/08529616668.shtml" target="_blank">马云否认将移民香港：做“杭州佬”挺好</a> <span class="newslistctnt">9月17日上午消息，阿里</span></li> 
+       <li><a href="http://it.sohu.com/20140918/n404438726.shtml" target="_blank">广电再出手 要求视频网站本周内下架OTT应用</a> <span class="newslistctnt">丁丁 新闻出版广</span></li> 
+       <li><a href="http://tech.sina.com.cn/zl/post/detail/i/2014-09-17/pid_8460456.htm" target="_blank">美团网的O2O困局：去团购、降成本、傍巨头</a> <span class="newslistctnt">不得不说，王兴的商</span></li> 
+       <li><a href="http://tech.163.com/13/0726/09/94MSBPCO000915BF.html" target="_blank">8家出版社抵制电商逆价销售 矛头直指京东</a> <span class="newslistctnt">本报讯&amp;#1</span></li> 
+       <li><a href="http://tech.163.com/13/0726/07/94MMFMOA000915BF.html" target="_blank">文件显示Facebook收购Parse对价超6700万美元</a> <span class="newslistctnt">7</span></li> 
+       <li><a href="http://tech.sina.com.cn/i/2014-09-17/07189616318.shtml" target="_blank">9月17日互联网理财产品收益播报</a> <span class="newslistctnt">各种“宝”满天飞，哪一款最能</span></li> 
+       <li><a href="http://tech.sina.com.cn/i/2014-09-17/03079616224.shtml" target="_blank">“大姨吗”创始人生意经：掘金女性周期</a> <span class="newslistctnt">作为月经周期APP“大姨</span></li> 
+       <li><a href="http://it.sohu.com/20140918/n404431425.shtml" target="_blank">数字化教学时代来临 学生个人隐私成最大隐患</a> <span class="newslistctnt">阿咩 暑假转眼过，</span></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="area" id="area4"> 
+   <div class="titleBar"> 
+    <span class="more"><a href="#header" target="_self">返回顶部↑</a></span> 
+   </div> 
+  </div> 
+  <div class="foot"> 
+   <a target="_blank" href="contactus.html">联系我们</a> 
+   <a target="_blank" href="contactus.html">删帖投诉</a> 
+   <a target="_blank" href="contactus.html">免责声明</a> 版权所有 &copy;&nbsp; 
+   <a href="index.html">聚合一号</a> 
+   <a target="_blank" href="#">沪ICP备12345678</a> 
+   <img width="16" height="18" src="img/gong.gif" onerror="this.src=img/blank.jpg" /> 
+   <br />看 
+   <a href="index.html">天下新闻聚合</a>，就 
+   <a href="http://www.baidu.com/s?bs=%BE%DB%BA%CF%D2%BB%BA%C5&amp;f=8&amp;rsv_bp=1&amp;rsv_spt=3&amp;wd=%D0%C2%CE%C5%BE%DB%BA%CF%D2%BB%BA%C5&amp;inputT=3892">百度</a> 
+  </div>  
+ </body>
+</html>

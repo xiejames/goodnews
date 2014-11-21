@@ -1,0 +1,15 @@
+<<<<<<< .mine
+#Sun Nov 27 15:07:27 CST 2011
+=======
+#Sat Dec 03 15:14:33 CST 2011
+>>>>>>> .r66
+eclipse.preferences.version=1
+<<<<<<< .mine
+encoding//src/together/news/download/Main.java=UTF-8
+=======
+encoding//html/sub.html=GB2312
+encoding//html/tupian.html=GB2312
+encoding//htmlGenerated/index.html=GB2312
+encoding//src/together/news/download/Main.java=UTF-8
+>>>>>>> .r66
+encoding//target/163.news.top.html=UTF-8

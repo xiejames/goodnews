@@ -1,0 +1,270 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+<meta name="keywords" content="聚合,新闻首页,国内,国际,军事,财经,互联网,房产,汽车,体育,娱乐,游戏,教育,女人,科技,社会,视频,图片" /> 
+<meta name="description" content="新闻首页,国内,国际,军事,财经,互联网,房产,汽车,体育,娱乐,游戏,教育,女人,科技,社会,视频,图片的专业时事报道聚合网站" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>聚合-图片</title>
+<!--[if IE 6]><script type="text/javascript">try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}</script><![endif]-->
+<script src="js/jquery-1.7.min.js"></script>
+<script>
+var hasEverShow=new Array();
+$(document).ready(function(){
+	Array.prototype.contains=function(obj){
+	    for(var i=0; i<this.length; i++) {  
+	        if(this[i]==obj) {  
+	            return true;  
+	        }  
+	    }  
+	    return false;  
+	};
+
+	$('.naviSide li').click(function(){
+	    var str = $(this).text();
+		$('.naviSide').children().removeClass('on');
+		$('.naviSide li:nth-child('+str+')').addClass('on');
+		$('.box').children().removeClass('on');
+		$('.box div:nth-child('+str+')').addClass('on');
+		if(hasEverShow.contains(str)==false){
+			$('.box div:nth-child('+str+')').find("img").each(function(){
+				$(this).attr("src",$(this).attr("init_src"));
+				hasEverShow.push(str);
+			});
+		}
+
+	});
+	
+});
+</script>
+<style type="text/css" >
+/* Gbl CSS */
+body { margin:0px auto;text-align:center;width:960px;font-family:宋体,serif;background:#ffffff;font-size:12px;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea{padding:0; margin:0;}   
+table,td,tr,th{font-size:12px;}
+img{vertical-align:top;border:none;}
+ol,ul {list-style:none;}   
+h1,h2,h3,h4,h5,h6 {font-size:12px; font-weight:normal;}   
+/* link color font */
+a {color:#2b2b2b;text-decoration:none;}
+a:visited {color:#83006f;text-decoration:none;}
+a:hover {color:#BA2636;text-decoration:underline;}
+a:active {color:#BA2636;}
+/* head CSS */
+#header {height:32px; margin:0 auto; line-height:21px;}
+#header h1 {width:107px; height:24px; float:left; overflow:hidden; margin:2px 19px 0 2px;}
+#header .attlogo {float:left; height:15px; overflow:hidden; margin:10px 20px 0 0;}
+#header	.top_date {float:right; margin:10px 20px 0 0; display:inline;}
+#header	.top_notice {color:#0F65AE; width:500px; margin:9px 0 0; display:block;}
+#header	.top_search {float:right; margin:9px 0 0; display:inline;}
+/*navigation*/
+#navi{text-align:left;line-height:18px;background:url(img/linebg.gif) repeat-x #0F65AE; height:32px; width:100%; margin:0px;}
+#navi a{ margin-top:8px;height:15px;float:left; font-size:13px;color:#fff;padding:0px 10px;border-right:#880100 1px solid;}
+#navi .naviPreCurrent{border:0px;}
+#navi .naviCurrent {line-height:32px; height:32px;width:44px;text-align:center;border:0px;display:inline;float:left;  margin:0 0 0 4px; padding:0; background:url(img/nolinebg.gif) left bottom no-repeat; font-size:14px; font-weight:bold; color:#000;}
+#navi .naviCurrentWider{font-size:13px;margin:0px; }
+#navi .naviR a{float:right;border:0px;}
+#navi .naviLast{border:0px;}
+#subnavi{font-weight:bold;font-size:15px;color:#2b2b2b;padding:5px 0;}
+/*content area*/
+.area {clear:both;width:960px; margin:5 auto; text-align:left; color:#2b2b2b; float:left;}
+
+.titleBar {width:100%;border:1px solid #dcdddd;height:25px; line-height:25px; overflow:hidden;background:url(img/titlebarbg2.png) left top repeat-x #fff;}
+.titleBar .more {float:right; padding-right:5px;}
+.titleBar h2{padding:0px 8px;float:left; color:#000; font-weight:bold; line-height:25px;}
+.titleBar h2 a,.titleBar h2 a:visited,.titleBar h3 a,.titleBar h3 a:visited {color:#000;}
+.titleBar h2 a:hover,.titleBar h3 a:hover {color:#BA2636;}
+ 
+.box{overflow:hidden; width:100%;margin:0px; border:1px solid #dcdddd;}
+.box .boxcontent{ display:none;padding:3px;text-align:center;}
+.box .on{ display:block;}
+.box:hover{background:#fff;}
+.box h2{font-size:14px; font-weight:bold; line-height:24px;padding:3px;}
+.box .boximg{float:left;padding:5px;}
+.box .boxtext{line-height:21px; text-indent:2em; color:#727171;}
+.box .boxtext a{cursor:pointer;}
+
+.topnews{width:100%;color:#000;padding:5px;}
+.topnews h2{font-family:'黑体'; font-size:20px; font-weight:100; line-height:24px; margin:7px 0 4px;}
+.topnews span{text-indent:2em; color:#275ED3;}
+
+.newslist li {display:block;text-align:center;padding:8px;float:left;}
+.newslist .licontent{margin:5px;border:1px solid #dcdddd;}
+.piclist .piclistcontent h2{padding-top:5px;}
+
+.hotwords_cont li{text-align:center;padding-left:9px; line-height:25px; font-size:14px; clear:both;}
+
+.naviSide {float:right;padding:5px; height:24px;}
+.naviSide li {border:1px solid #dcdddd;text-align:center;float:left;width:21px; margin-right:3px; height:24px; line-height:26px;cursor:pointer;}
+.naviSide .on {background:url(img/linebg.gif) repeat-x #0F65AE;}
+
+.foot{border-top:1px solid #0F65AE;padding:10px;margin:5 auto; color:#4d4d4d; width:960px; line-height:21px; clear:both;}
+.foot .text{padding:5px 0 4px; border-bottom:1px solid #4d4d4d; margin:0 0 6px;}
+.foot a,.foot a:visited{color:#4d4d4d;}
+.foot a:hover {color:#ba2636;}
+</style>
+</head>
+
+<body>
+<div id="header">
+	<div style="float:left;">
+		<h1><a href="" name="top"><span style="font-size:24px;background-color:#CC0000;color:white;font-family:楷体;">聚合<span style="font-family:黑体;color:#CC0000;background-color:white;margin:5px;">新闻</span></span>		<span class="attlogo"></span></a></h1>
+		<span class="attlogo"></span>
+	</div>
+	<div style="float:left;">
+		<marquee behavior="alternate" id='top_notice' class="top_notice" direction="right">系统提示：重大利好！重大利好！重大利好！重大利好！重大利好！</marquee>
+	</div>
+	<div style="float:right;">
+		<div class="top_search">
+			<form target="_blank" id="formtop" action="#">
+			<input type="text" class="textBox" value="请输入关键词" onfocus="this.value=''" id="s_top" name="s_top"/>
+			<input type="submit" class="btn" value="搜索" name="Submit"/>
+			</form>
+		</div>
+		<div class="top_date" id="top_date">11月5日 星期六 </div>
+		<script language="javascript">
+		var _now = new Date();
+		var year = _now.getFullYear();
+		var month = _now.getMonth() + 1;
+		document.getElementById("top_date").innerHTML = month+"月"+_now.getDate()+"日 星期"+"日一二三四五六".charAt(_now.getDay());
+		</script>
+	</div>
+</div>
+<div id="navi">
+	<span class="naviL">
+		<a href="index.html" class="naviPreCurrent" >首页</a> 
+		<a class="naviCurrent" href="#">国内</a> 
+		<a href="#">国际</a> 
+		<a href="#">军事</a> 
+		<a href="#">财经</a> 
+		<a href="#">互联网</a> 
+		<a href="#">房产</a> 
+		<a href="#">汽车</a> 
+		<a href="#">体育</a> 
+		<a href="#">娱乐</a> 
+		<a href="#">游戏</a> 
+		<a href="#">教育</a> 
+		<a href="#">女人</a> 
+		<a href="#">科技</a> 
+		<a href="#">社会</a> 
+		<a href="#">视频</a> 
+		<a href="#" class="naviLast">图片</a> 
+	</span>
+	<span class="naviR">
+		<a href="#" target="_blank">手机版</a> 
+	</span>
+</div>
+<div class="area">
+		<div id="subnavi">您所在位置：首页-><span>图片</span></div>
+		<div class="box">
+			<div class="boxcontent on">
+				<ul class="newslist">
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+						<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+				</ul>
+			</div>
+			<div class="boxcontent">
+				<ul class="newslist">
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+					<li class="licontent">
+									<div><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html"><img width="210" height="140" alt="骆家辉兄妹回乡祭祖" title="骆家辉兄妹回乡祭祖" src="http://img2.cache.netease.com/cnews/2011/11/5/2011110511034197182.jpg"></a>
+								  		<h2><a target="_blank" href="http://news.163.com/photoview/00AP0001/18471.html">骆家辉兄妹回乡祭祖</a></h2>
+									</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+			<div>
+				<ul class="naviSide">
+					  	    <li class="on">1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+							<li>6</li>
+							<li>7</li>
+							<li>8</li>
+							<li>9</li>
+				</ul>
+			</div>
+</div>
+
+<div class="foot">
+	<a target="_blank" href="contactus.html">联系我们</a>
+	<a target="_blank" href="contactus.html">删帖投诉</a>
+	<a target="_blank" href="contactus.html">免责声明</a>
+	版权所有 &copy;&nbsp;<a href="index.html">聚合一号</a>
+	<a target="_blank" href="#">沪ICP备12345678</a>
+	<img width="16" height="18" src="img/gong.gif"><br>看
+	<a href="index.html">天下新闻聚合</a>，就
+	<a href="http://www.baidu.com/s?bs=%BE%DB%BA%CF%D2%BB%BA%C5&f=8&rsv_bp=1&rsv_spt=3&wd=%D0%C2%CE%C5%BE%DB%BA%CF%D2%BB%BA%C5&inputT=3892">百度</a>
+</div>
+</body>
+</html>
